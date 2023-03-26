@@ -12,4 +12,9 @@ REST API atau Representational State Transfer API adalah salah satu jenis API ya
 JSON atau JavaScript Object Notation adalah sebuah format data yang biasa digunakan untuk mentransmisikan dan menyimpan data dan sering digunakan dalam REST API untuk mengirimkan data. Sesuai namanya struktur JSON mirip dengan objek pada JavaScript.
 ## REST API Testing
 ### Poin 1
-Tetsing pada API bertujuan untuk memastikan API yang digunakan sudah
+Tetsing pada API bertujuan untuk memastikan API yang digunakan sudah berjalan dengan baik dan sesuai dengan tujuan. Seperti testing pada umumnya API Testing terbagi menjadi pengujian fungsional dan non fungsional yang meliputi unit testing, integration tetsing, performance testing, dan lainnya. Tools yang digunakan bisa dengan Postman.
+### Poin 2
+Seperti pada testing umumnya API Testing menghasilkan output dan beberapanya bisa menghasilkan bug. Output dari API Testing sendiri ada JSON (Paling umum), XML, PDF. Untuk bug yang bisa dihasilkan seperti pada bagian security dimana kurang adanya keamanan data. Kemudian bisa jadi ada error disaan handling dan juga masalah performance.
+### Poin 3
+Keuntungan dari melakukan API Testing adalah kualitas dari API itu sendiri terjamin dan meningkat karena dievaluasi jika terjadi bug atau kesalahan. Selain itu juga meningkatkan performa API yang dipakai dalam suatu sistem.
+
